@@ -22,4 +22,10 @@
         android:name="com.b2.android.application.demo.academizeit.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_weather"
+        android:name="com.b2.android.application.demo.academizeit.ui.weather.WeatherFragment"
+        android:label="@string/title_weatherinfo"
+        tools:layout="@layout/weather_fragment" />
 </navigation>
